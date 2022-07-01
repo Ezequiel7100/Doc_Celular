@@ -1,0 +1,450 @@
+* {
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+}
+body{
+    background: #000000;  
+    background: -webkit-linear-gradient(to right, #434343, #000000); 
+    background: linear-gradient(to right, #434343, #000000); 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.fondo{
+    width: 100%;
+    position: relative;
+}
+.fondo .fraseInicio{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    right: 600px;
+    bottom: 400px;
+}
+.fondo .fraseInicio .p1{
+    font-size: 100px;
+}
+.fondo .fraseInicio .p2{
+    font-size: 150px;
+}
+.fondo .fraseInicio .p3{
+    font-size: 30px;
+}
+.logo img{
+    width: 50px;
+}
+.menu a{
+    color: white;
+}
+.header{
+    display: flex;
+    background-color: #000000;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.nombre{
+    color: white;
+    background-position: center;
+}
+.menu ul{
+    display: flex;
+    background-position: top;
+    align-items: center;
+}
+.menu li{
+    margin-right: 1.5rem;
+}
+.menu a:hover{
+    color: aqua;
+}
+.menu li{
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+    border: solid 2px white;
+}
+.menu li:hover{
+    background: transparent;
+    border: solid 2px aqua;
+}
+.nombreComputacion{
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+}
+.computacion{
+    margin: 250px auto;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    width: 80%;
+    display: flex;
+    padding: 80px 50px;
+    justify-content: space-around;
+    border-radius: 6rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+}
+.computacion p{
+    color: black;
+}
+.computacion .comboNoga{
+    background-color: white;
+    box-shadow: 5px 8px 12px black ;
+}
+.computacion .tecladoMouse{
+    background-color: white;
+    box-shadow: 5px 8px 12px black ;
+}
+.computacion .notebookLenovo{
+    background-color: white;
+    box-shadow: 5px 8px 12px black ;
+}
+.paginaComputacion img{
+    width: 300px;
+}
+.paginaComputacion{
+    width: 100%;
+}
+.paginaComputacion .fotosComputacion{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto 60px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+.paginaComputacion .imagenCompu1{
+    margin: 30px 30px;
+    padding:  60px 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaComputacion .imagenCompu2{
+    margin: 30px 30px;
+    padding:  10px 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaComputacion .imagenCompu3{
+    margin: 30px 30px;
+    padding: 10px 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.nombreGaming{
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+}
+.gaming{
+    margin: 250px auto;
+    width: 80%;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+
+    display: flex;
+    padding: 80px 50px;
+    justify-content: space-around;
+    border-radius: 6rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+}
+.gaming p{
+    color: black;
+}
+.gaming .controlPs3{
+    background-color: white;
+    box-shadow: 5px 8px 12px black ;
+}
+.gaming .controlPs4{
+    background-color: white;
+    box-shadow: 5px 8px 12px black ;
+}
+.gaming .ps4Pro{
+    background-color: white;
+    box-shadow: 5px 8px 12px black ;
+}
+.paginaGaming img{ 
+    width: 300px;
+}
+.paginaGaming{  
+    width: 100%;
+}
+.paginaGaming .fotosGaming{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto 60px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+.paginaGaming .imagenGaming1{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaGaming .imagenGaming2{
+    margin: 30px 30px;
+    padding: 100px 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaGaming .imagenGaming3{
+    margin: 30px 30px;
+    padding:  80px 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.nombreAccesorio{
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+}
+.accesorios{
+    margin: 250px auto;
+    width: 80%;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    display: flex;
+    padding: 40px 30px;
+    justify-content: space-around;
+    border-radius: 6rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+}
+.accesorios p{
+    color: black;
+}
+.accesorios .auricular{
+    background-color: white;
+    box-shadow: 5px 8px 12px black ;
+}
+.accesorios .cargadorPortatil{
+    background-color: white;
+    box-shadow: 5px 8px 12px black ;
+}
+.accesorios .soporteAuto{
+    background-color: white;
+    box-shadow: 5px 8px 12px black ;
+}
+.paginaAccesorios{
+    width: 100%;
+}
+.paginaAccesorios img{
+    width: 300px;
+}
+.paginaAccesorios .fotosAccesorios{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto 60px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+.paginaAccesorios .imagenAcceso1{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaAccesorios .imagenAcceso1 img{
+    width: 225px;
+}
+.paginaAccesorios .imagenAcceso2{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaAccesorios .imagenAcceso3{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+
+}
+.nombreCelulares{
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+}
+.celulares{
+    margin: 250px auto;
+    width: 80%;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    display: flex;
+    padding: 40px 30px;
+    justify-content: space-around;
+    border-radius: 6rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.celulares p{
+    color: black;
+}
+.celularesPagina{
+    width: 100%;
+}
+.celularesPagina img{
+    width: 250px;
+}
+.celularesPagina h2{
+    color: white;
+}
+.celularesPagina .fotosCelulares{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto 60px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+.celularesPagina .imagenCelu1{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.celularesPagina .imagenCelu2{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.celularesPagina .imagenCelu3{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.celularesPagina .imagenCelu4{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.celularesPagina .imagenCelu5{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+    transition: transform 3s;
+}
+.imagenCelu5:hover {
+    transform: scale(1.2);
+}
+.celularesPagina .imagenCelu6{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+/* UBICACION */
+.ubicacion{
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    width: 80%;
+    padding: 40px 30px;
+    margin: 350px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+/* FORMULARIO */
+.formulario{
+    margin: 250px auto;
+    width: 80%;
+    padding: 40px 30px;
+    color: #000000;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.formulario .tituloFormulario{
+    justify-content: center;
+}
+.piePaginas{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    height: 50px;
+}
+.redes{
+    display: flex;
+    justify-content: right;
+}
+.redes img{
+    width: 30px;
+}
