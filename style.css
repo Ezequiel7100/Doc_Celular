@@ -16,7 +16,16 @@ body{
 }
 .logo img{
     width: 50px;
+    animation: ease-in animat 1s;
 }
+@keyframes animat {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 .menu a{
     color: white;
 }
@@ -68,12 +77,15 @@ body{
 .computacion .productosComputacion{
     display: flex;
     flex-wrap: wrap;
-    display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: transform 0.4s;
 }
 .computacion p{
     color: black;
+}
+.productosComputacion a:hover{
+    transform: scale(1.07);
 }
 .productosComputacion .comboNoga{
     margin: 30px 30px;
@@ -204,6 +216,12 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: transform 0.4s;
+}
+.productosGaming a:hover{
+    transform: scale(1.07);
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
 }
 .gaming p{
     color: black;
@@ -219,7 +237,7 @@ body{
 }
 .gaming .controlPs4{
     margin: 30px 30px;
-    padding: 30px 30px;
+    padding: 100px 30px;
     background-color: white;
     color: #000000;
     border-radius: 2rem;
@@ -228,7 +246,7 @@ body{
 }
 .gaming .ps4Pro{
     margin: 30px 30px;
-    padding: 30px 30px;
+    padding: 80px 30px;
     background-color: white;
     color: #000000;
     border-radius: 2rem;
@@ -328,13 +346,17 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: transform 0.4s;
+}
+.productosAccesorios a:hover{
+    transform: scale(1.07);
 }
 .accesorios p{
     color: black;
 }
 .accesorios .auricular{
     margin: 30px 30px;
-    padding: 80px 30px;
+    padding: 60px 30px;
     background-color: white;
     color: #000000;
     border-radius: 2rem;
@@ -431,6 +453,10 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: transform 0.4s;
+}
+.productosCelulares a:hover{
+    transform: scale(1.07);
 }
 .celulares .a03s{
     margin: 30px 30px;
