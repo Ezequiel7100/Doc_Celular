@@ -13,23 +13,6 @@ body{
 }
 .fondo{
     width: 100%;
-    position: relative;
-}
-.fondo .fraseInicio{
-    position: absolute;
-    top: 250px;
-    left: 300px;
-    right: 600px;
-    bottom: 400px;
-}
-.fondo .fraseInicio .p1{
-    font-size: 100px;
-}
-.fondo .fraseInicio .p2{
-    font-size: 150px;
-}
-.fondo .fraseInicio .p3{
-    font-size: 30px;
 }
 .logo img{
     width: 50px;
@@ -52,7 +35,6 @@ body{
 }
 .menu ul{
     display: flex;
-    background-position: top;
     align-items: center;
 }
 .menu li{
@@ -61,20 +43,13 @@ body{
 .menu a:hover{
     color: aqua;
 }
-.menu li{
-    padding: 0.25rem 0.75rem;
-    border-radius: 2rem;
-    border: solid 2px white;
-}
-.menu li:hover{
-    background: transparent;
-    border: solid 2px aqua;
-}
 .nombreComputacion{
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-transform: uppercase;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
 }
 .computacion{
     margin: 250px auto;
@@ -82,27 +57,50 @@ body{
     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
     background: linear-gradient(to right, #2c3e50, #bdc3c7);
     width: 80%;
-    display: flex;
     padding: 80px 50px;
-    justify-content: space-around;
     border-radius: 6rem;
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black ;
 }
+.computacion img{
+    width: 300px;
+}
+.computacion .productosComputacion{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .computacion p{
     color: black;
 }
-.computacion .comboNoga{
+.productosComputacion .comboNoga{
+    margin: 30px 30px;
+    padding: 80px 30px;
     background-color: white;
-    box-shadow: 5px 8px 12px black ;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
 }
-.computacion .tecladoMouse{
+.productosComputacion .tecladoMouse{
+    margin: 30px 30px;
+    padding: 30px 30px;
     background-color: white;
-    box-shadow: 5px 8px 12px black ;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
 }
-.computacion .notebookLenovo{
+.productosComputacion .notebookLenovo{
+    margin: 30px 30px;
+    padding: 30px 30px;
     background-color: white;
-    box-shadow: 5px 8px 12px black ;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
 }
 .paginaComputacion img{
     width: 300px;
@@ -111,6 +109,13 @@ body{
     width: 100%;
 }
 .paginaComputacion .fotosComputacion{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    justify-items: center;
+}
+/*.paginaComputacion .fotosComputacion{
     display: flex;
     flex-wrap: wrap;
     margin: 60px auto 60px auto;
@@ -118,7 +123,7 @@ body{
     justify-content: space-around;
     width: 70%;
     align-items: center;
-}
+}*/
 .paginaComputacion .imagenCompu1{
     margin: 30px 30px;
     padding:  60px 30px;
@@ -146,6 +151,33 @@ body{
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black;
 }
+.paginaComputacion .imagenCompu4{
+    margin: 30px 30px;
+    padding: 10px 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaComputacion .imagenCompu5{
+    margin: 30px 30px;
+    padding: 10px 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaComputacion .imagenCompu6{
+    margin: 30px 30px;
+    padding: 60px 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
 .nombreGaming{
     align-items: center;
     text-transform: uppercase;
@@ -154,32 +186,54 @@ body{
 }
 .gaming{
     margin: 250px auto;
-    width: 80%;
     background: #bdc3c7;
     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
     background: linear-gradient(to right, #2c3e50, #bdc3c7);
-
-    display: flex;
+    width: 80%;
     padding: 80px 50px;
-    justify-content: space-around;
     border-radius: 6rem;
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black ;
+}
+.gaming img{
+    width: 300px;
+}
+.gaming .productosGaming{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .gaming p{
     color: black;
 }
 .gaming .controlPs3{
+    margin: 30px 30px;
+    padding: 30px 30px;
     background-color: white;
-    box-shadow: 5px 8px 12px black ;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
 }
 .gaming .controlPs4{
+    margin: 30px 30px;
+    padding: 30px 30px;
     background-color: white;
-    box-shadow: 5px 8px 12px black ;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
 }
 .gaming .ps4Pro{
+    margin: 30px 30px;
+    padding: 30px 30px;
     background-color: white;
-    box-shadow: 5px 8px 12px black ;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
 }
 .paginaGaming img{ 
     width: 300px;
@@ -188,13 +242,11 @@ body{
     width: 100%;
 }
 .paginaGaming .fotosGaming{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 60px auto 60px auto;
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    justify-items: center;
 }
 .paginaGaming .imagenGaming1{
     margin: 30px 30px;
@@ -223,6 +275,33 @@ body{
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black;
 }
+.paginaGaming .imagenGaming4{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaGaming .imagenGaming5{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaGaming .imagenGaming6{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
 .nombreAccesorio{
     align-items: center;
     text-transform: uppercase;
@@ -231,31 +310,54 @@ body{
 }
 .accesorios{
     margin: 250px auto;
-    width: 80%;
     background: #bdc3c7;
     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
     background: linear-gradient(to right, #2c3e50, #bdc3c7);
-    display: flex;
-    padding: 40px 30px;
-    justify-content: space-around;
+    width: 80%;
+    padding: 80px 50px;
     border-radius: 6rem;
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black ;
+}
+.accesorios img{
+    width: 300px;
+}
+.accesorios .productosAccesorios{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .accesorios p{
     color: black;
 }
 .accesorios .auricular{
+    margin: 30px 30px;
+    padding: 80px 30px;
     background-color: white;
-    box-shadow: 5px 8px 12px black ;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
 }
 .accesorios .cargadorPortatil{
+    margin: 30px 30px;
+    padding: 80px 30px;
     background-color: white;
-    box-shadow: 5px 8px 12px black ;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
 }
 .accesorios .soporteAuto{
+    margin: 30px 30px;
+    padding: 80px 30px;
     background-color: white;
-    box-shadow: 5px 8px 12px black ;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
 }
 .paginaAccesorios{
     width: 100%;
@@ -311,14 +413,49 @@ body{
 }
 .celulares{
     margin: 250px auto;
-    width: 80%;
     background: #bdc3c7;
     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
     background: linear-gradient(to right, #2c3e50, #bdc3c7);
-    display: flex;
-    padding: 40px 30px;
-    justify-content: space-around;
+    width: 80%;
+    padding: 80px 50px;
     border-radius: 6rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+}
+.celulares img{
+    width: 300px;
+}
+.celulares .productosCelulares{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.celulares .a03s{
+    margin: 30px 30px;
+    padding: 80px 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.celulares .a12{
+    margin: 30px 30px;
+    padding: 80px 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.celulares .a22{
+    margin: 30px 30px;
+    padding: 80px 30px;
+    background-color: white;
+    color: #000000;
+    border-radius: 2rem;
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black;
 }
@@ -351,6 +488,7 @@ body{
     border-radius: 2rem;
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black;
+    transition: transform 0.4s;
 }
 .celularesPagina .imagenCelu2{
     margin: 30px 30px;
@@ -360,6 +498,7 @@ body{
     border-radius: 2rem;
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black;
+    transition: transform 0.4s;
 }
 .celularesPagina .imagenCelu3{
     margin: 30px 30px;
@@ -369,6 +508,7 @@ body{
     border-radius: 2rem;
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black;
+    transition: transform 0.4s;
 }
 .celularesPagina .imagenCelu4{
     margin: 30px 30px;
@@ -378,19 +518,17 @@ body{
     border-radius: 2rem;
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black;
+    transition: transform 0.4s;
 }
 .celularesPagina .imagenCelu5{
     margin: 30px 30px;
-    padding: 30px;
+    padding: 52px 30px;
     background-color: white;
     color: #000000;
     border-radius: 2rem;
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black;
-    transition: transform 3s;
-}
-.imagenCelu5:hover {
-    transform: scale(1.2);
+    transition: transform 0.4s;
 }
 .celularesPagina .imagenCelu6{
     margin: 30px 30px;
@@ -400,6 +538,25 @@ body{
     border-radius: 2rem;
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black;
+    transition: transform 0.4s;
+}
+.imagenCelu1:hover {
+    transform: scale(1.1);
+}
+.imagenCelu2:hover {
+    transform: scale(1.1);
+}
+.imagenCelu3:hover {
+    transform: scale(1.1);
+}
+.imagenCelu4:hover {
+    transform: scale(1.1);
+}
+.imagenCelu5:hover {
+    transform: scale(1.1);
+}
+.imagenCelu6:hover {
+    transform: scale(1.1);
 }
 /* UBICACION */
 .ubicacion{
@@ -434,17 +591,125 @@ body{
 }
 .formulario .tituloFormulario{
     justify-content: center;
-}
-.piePaginas{
-    display: flex;
-    align-items: center;
-    background-color: #000000;
-    height: 50px;
+    padding-bottom: 5px;
 }
 .redes{
     display: flex;
-    justify-content: right;
+    padding: 20px 20px;
+    border-bottom: solid 1px white;
 }
 .redes img{
     width: 30px;
+    padding: 10px;
+}
+.tituloQuienes{
+    display: flex;
+}
+.piePaginas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+@media only screen and (max-width: 768px) {
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    /*index*/
+    .computacion{
+        flex-direction: column;
+        padding: 60px 20px;
+    }
+    .gaming{
+        flex-direction: column;
+        padding: 60px 20px;
+    }
+    .accesorios{
+        flex-direction: column;
+    }
+    .paginaComputacion .fotosComputacion{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .paginaGaming .fotosGaming{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .paginaGaming img{
+        width: 200px;
+    }
+    .paginaComputacion img{
+        width: 200px;
+    }
+    .ubicacion .mapa{
+        width: 400px;
+        height: 400px;
+    }
+    
+} 
+@media only screen and (max-width: 320px) {
+    .nombre{
+        font-size: 20px;
+    }
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu ul{
+        font-size: 9px;
+        padding-top: 10px;
+    }
+    .computacion{
+        flex-direction: column;
+        padding: 60px 15px;
+        background: none;
+    }
+    .gaming{
+        padding: 60px 15px;
+        background: none;
+    }
+    .accesorios{
+        padding: 60px 15px;
+        background: none;
+    }
+    .celulares{
+        padding: 60px 15px;
+        background: transparent;
+    }
+    .computacion img{
+        width: 150px;
+    }
+    .gaming img{
+        width: 150px;
+    }
+    .accesorios img{
+        width: 150px;
+    }
+    .celulares img{
+        width: 150px;
+    }
+    .ubicacion .mapa{
+        width: 200px;
+    }
+    .paginaComputacion .fotosComputacion{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .paginaGaming .fotosGaming{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .paginaComputacion img{
+        width: 200px;
+    }
+    .celularesPagina img{
+        width: 200px;
+    }
+    .paginaGaming img{
+        width: 200px;
+    }
+    .paginaAccesorios img{
+        width: 200px;
+    }
 }
