@@ -1,56 +1,19 @@
 * {
 padding: 0;
 margin: 0;
-text-decoration: none;
 list-style: none;
 }
 body{
     background: #000000;  
     background: -webkit-linear-gradient(to right, #434343, #000000); 
     background: linear-gradient(to right, #434343, #000000); 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
+}
+a{
+    text-decoration: none;
 }
 .fondo{
     width: 100%;
-}
-.logo img{
-    width: 50px;
-    animation: ease-in animat 1s;
-}
-@keyframes animat {
-    0% {
-      transform: scale(0);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-.menu a{
-    color: white;
-}
-.header{
-    display: flex;
-    background-color: #000000;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-}
-.nombre{
-    color: white;
-    background-position: center;
-}
-.menu ul{
-    display: flex;
-    align-items: center;
-}
-.menu li{
-    margin-right: 1.5rem;
-}
-.menu a:hover{
-    color: aqua;
 }
 .nombreComputacion{
     display: flex;
@@ -127,7 +90,7 @@ body{
     grid-row-gap: 20px;
     justify-items: center;
 }
-/*.paginaComputacion .fotosComputacion{
+.paginaComputacion .fotosComputacion{
     display: flex;
     flex-wrap: wrap;
     margin: 60px auto 60px auto;
@@ -135,8 +98,8 @@ body{
     justify-content: space-around;
     width: 70%;
     align-items: center;
-}*/
-.paginaComputacion .imagenCompu1{
+}
+ .paginaComputacion .imagenCompu1{
     margin: 30px 30px;
     padding:  60px 30px;
     background-color: white;
@@ -381,51 +344,47 @@ body{
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black;
 }
-.paginaAccesorios{
-    width: 100%;
-}
-.paginaAccesorios img{
-    width: 300px;
-}
-.paginaAccesorios .fotosAccesorios{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 60px auto 60px auto;
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
-    align-items: center;
-}
-.paginaAccesorios .imagenAcceso1{
-    margin: 30px 30px;
-    padding: 30px;
-    background-color: white;
-    color: #000000;
+.card1{
+    margin: 50px 60px;
+    padding: 31px 20px;
     border-radius: 2rem;
     border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    box-shadow: 5px 8px 12px black ;
 }
-.paginaAccesorios .imagenAcceso1 img{
-    width: 225px;
-}
-.paginaAccesorios .imagenAcceso2{
-    margin: 30px 30px;
-    padding: 30px;
-    background-color: white;
-    color: #000000;
+.card2{
+    margin: 50px 60px;
+    padding: 27px 20px;
     border-radius: 2rem;
     border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    box-shadow: 5px 8px 12px black ;
 }
-.paginaAccesorios .imagenAcceso3{
-    margin: 30px 30px;
-    padding: 30px;
-    background-color: white;
-    color: #000000;
+.card3{
+    margin: 50px 60px;
+    padding: 40px 20px;
     border-radius: 2rem;
     border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
-
+    box-shadow: 5px 8px 12px black ;
+}
+.card4{
+    margin: 50px 60px;
+    padding: 40px 20px;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+}
+.card5{
+    margin: 50px 60px;
+    padding: 40px 20px;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+}
+.card6{
+    margin: 50px 60px;
+    padding: 40px 20px;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
 }
 .nombreCelulares{
     align-items: center;
@@ -583,7 +542,7 @@ body{
 }
 .imagenCelu6:hover {
     transform: scale(1.1);
-}
+} 
 /* UBICACION */
 .ubicacion{
     background: #bdc3c7;
@@ -599,25 +558,11 @@ body{
     border: solid 2px transparent;
     box-shadow: 5px 8px 12px black;
 }
-/* FORMULARIO */
-.formulario{
-    margin: 250px auto;
-    width: 80%;
-    padding: 40px 30px;
-    color: #000000;
-    background: #bdc3c7;
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
-    background: linear-gradient(to right, #2c3e50, #bdc3c7);
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+.cards{
+    margin: 200px 0px;
 }
-.formulario .tituloFormulario{
-    justify-content: center;
-    padding-bottom: 5px;
+.icono{
+    font-size: 100px;
 }
 .redes{
     display: flex;
@@ -625,7 +570,7 @@ body{
     border-bottom: solid 1px white;
 }
 .redes img{
-    width: 30px;
+    width: 50px;
     padding: 10px;
 }
 .tituloQuienes{
@@ -636,13 +581,13 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: #000000;
-}
+} 
 @media only screen and (max-width: 768px) {
     .header{
         flex-direction: column;
         align-items: center;
     }
-    /*index*/
+        /*index*/
     .computacion{
         flex-direction: column;
         padding: 60px 20px;
@@ -671,6 +616,9 @@ body{
     .ubicacion .mapa{
         width: 400px;
         height: 400px;
+    }
+    .icono{
+        font-size: 50px;
     }
     
 } 
@@ -737,5 +685,8 @@ body{
     }
     .paginaAccesorios img{
         width: 200px;
+    }
+    .icono{
+        font-size: 30px;
     }
 }

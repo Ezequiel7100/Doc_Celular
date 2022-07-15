@@ -4,25 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Doctor Celular/Inicio</title>
 </head>
 <body>
-    <header class="header">
-            <div class="logo">
-                <img src="./imagenes/logo.jpn.png" alt="logo">
-            </div>
-                <h1 class="nombre">Doctor Celular</h1>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#">Inicio</a>
-                    <!--<ion-icon name="home-outline" class="iconoInicio"></ion-icon></li>-->
-                    <li><a href="./paginas/computacion.html">Computacion</a></li>
-                    <li><a href="./paginas/gaming.html">Gaming</a></li>
-                    <li><a href="./paginas/accesorios.html">Accesorios</a></li>
-                    <li><a href="./paginas/celualres.html">Celulares</a></li>
-                </ul>
-            </nav>
+    <header class="sticky-top"> 
+                <nav class="navbar navbar-expand-lg bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand link-light" href="#">
+                          <img src="./imagenes/logo.jpn.png" alt="logo Doctor celular" width="50" class="d-inline-block align-text-center">
+                          Doctor Celular
+                        </a> 
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link  link-light active" aria-current="page" href="#">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link link-light" href="./paginas/computacion.html">Computacion</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link link-light" href="./paginas/gaming.html">Gaming</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link link-light" href="./paginas/accesorios.html">Accesorios</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link link-light"  href="./paginas/celualres.html">Celulares</a>
+                          </li> 
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
     </header>
     <main>
          <div class="fondo">   
@@ -105,25 +122,55 @@
         </section>   
         <section class="formas-de-pago">
         </section> 
-        <section class="formulario">
-            <h3 class="tituloFormulario">Dejanos tu opinion sobre tu experiencia en la pagina</h3>
-            <div class="nombre-formulario">
-                <label for="text">Nombre:</label>
-                <input type="text" name="text" >
+        <form class="row justify-content-md-center col-8 mx-auto border rounded-3 p-5 my-5">
+            <h4 class="pb-3">
+                Dejanos tu opinion sobre nuestra pagina
+            </h4>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
             </div>
-            <div class="email-formulario">
-                <label for="email">E-mail:</label>
-                <input type="text" name="email" placeholder="@hotmail.com">
+            <fieldset class="row mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">Experiencia:</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Excelente
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Buena
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label" for="gridRadios3">
+                    Mala
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <button type="button" class="btn btn-outline-light col-2">Enviar</button>
+          </form>
+          <div class="cards d-flex justify-content-center">
+            <div class="card tarjetaPago p-1 bg-transparent border-end border-start  border-top-0 border-bottom-0" style="width: 18rem;">
+                <ion-icon name="wallet-outline" class="icono"></ion-icon>
+                <div class="card-body">
+                 <h5 class="card-title h6 text-white ">Paga con efectivo y trajeta</h5>
+                </div>
             </div>
-            <div class="opinion-formulario">
-                <label for="opinion1">Opinion:</label>
-                <textarea name="opinion1" id="opinion" cols="30" rows="10" ></textarea>
+            <div class="card tarjetaPago p-1 bg-transparent border-end border-top-0 border-bottom-0" style="width: 18rem;">
+                <ion-icon name="paper-plane-outline" class="icono"></ion-icon>
+                <div class="card-body">
+                <h5 class="card-title h6 text-white"> Envios a todo el mundo</h5>
+                </div>
             </div>
-            <div class="boton-formulario">
-                <button>Enviar</button>
-            </div>
-        </section>
-        <h3>Paga con efectivo o con tarjeta</h3>
+        </div>
     </main>
     <footer>
         <div class="piePaginas" >
@@ -150,5 +197,15 @@
     </footer>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+crossorigin="anonymous"
+></script>
 </body>
 </html>
