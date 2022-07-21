@@ -1,0 +1,139 @@
+.nombreAccesorio{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    margin: 100px auto 0px auto;
+    border: solid 2px white;
+}
+.accesorios{
+    margin: 0px auto 250px auto;
+    background: #bdc3c7;
+    background-image: $color-secundario;
+    width: 80%;
+    padding: 80px 50px;
+
+        .productosAccesorios{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            transition: transform 0.4s;
+        }
+}
+.accesorios img{
+    width: 300px;
+}
+.productosAccesorios a:hover{
+    transform: scale(1.07);
+}
+.accesorios p{
+    color: black;
+}
+.accesorios {
+    
+    .auricular{
+        margin: 30px 30px;
+        padding: 60px 30px;
+        background-color: $color-cards;
+        color: #000000;
+        border-radius: 2rem;
+        border: solid 2px transparent;
+        box-shadow: 5px 8px 12px black;
+    }
+    .cargadorPortatil{
+        margin: 30px 30px;
+        padding: 80px 30px;
+        background-color: $color-cards;
+        color: #000000;
+        border-radius: 2rem;
+        border: solid 2px transparent;
+        box-shadow: 5px 8px 12px black;
+    }
+    .soporteAuto{
+        margin: 30px 30px;
+        padding: 80px 30px;
+        background-color: $color-cards;
+        color: #000000;
+        border-radius: 2rem;
+        border: solid 2px transparent;
+        box-shadow: 5px 8px 12px black;
+    }
+}
+.paginaAccesorios h2, p{
+    display: flex;
+    justify-content: center;
+}
+.paginaAccesorios p{
+    border-bottom: solid 2px white;
+}
+.card1{
+    margin: 50px 60px;
+    padding: 31px 20px;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+    transition: transform 0.4s;
+}
+.card2{
+    margin: 50px 60px;
+    padding: 27px 20px;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+    transition: transform 0.4s;
+}
+.card3{
+    margin: 50px 60px;
+    padding: 40px 20px;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+    transition: transform 0.4s;
+}
+.card4{
+    margin: 50px 60px;
+    padding: 40px 20px;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+    transition: transform 0.4s;
+}
+.card5{
+    margin: 50px 60px;
+    padding: 40px 20px;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+    transition: transform 0.4s;
+}
+.card6{
+    margin: 50px 60px;
+    padding: 40px 20px;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+    transition: transform 0.4s;
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.card2:hover{
+    transform: scale(1.1);
+}
+.card3:hover{
+    transform: scale(1.1);
+}
+.card4:hover{
+    transform: scale(1.1);
+}
+.card5:hover{
+    transform: scale(1.1);
+}
+.card6:hover{
+    transform: scale(1.1); 
+}

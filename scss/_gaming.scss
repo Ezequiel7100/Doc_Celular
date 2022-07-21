@@ -1,0 +1,132 @@
+.nombreGaming{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    margin: 100px auto 0px auto;
+    border: solid 2px white;
+}
+.gaming{
+    margin: 0px auto 250px auto;
+    background: #bdc3c7;
+    background-image: $color-secundario;
+    width: 80%;
+    padding: 80px 50px;
+}
+.gaming img{
+    width: 300px;
+}
+.gaming .productosGaming{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: transform 0.4s;
+}
+.productosGaming a:hover{
+    transform: scale(1.07);
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black ;
+}
+.gaming p{
+    color: black;
+}
+.gaming .controlPs3{
+    margin: 30px 30px;
+    padding: 30px 30px;
+    background-color: $color-cards;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.gaming .controlPs4{
+    margin: 30px 30px;
+    padding: 100px 30px;
+    background-color: $color-cards;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.gaming .ps4Pro{
+    margin: 30px 30px;
+    padding: 80px 30px;
+    background-color: $color-cards;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaGaming img{ 
+    width: 300px;
+}
+.paginaGaming{  
+    width: 100%;
+}
+.paginaGaming .fotosGaming{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    justify-items: center;
+}
+.paginaGaming .imagenGaming1{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: $color-cards;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaGaming .imagenGaming2{
+    margin: 30px 30px;
+    padding: 100px 30px;
+    background-color: $color-cards;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaGaming .imagenGaming3{
+    margin: 30px 30px;
+    padding:  80px 30px;
+    background-color: $color-cards;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaGaming .imagenGaming4{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: $color-cards;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaGaming .imagenGaming5{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: $color-cards;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
+.paginaGaming .imagenGaming6{
+    margin: 30px 30px;
+    padding: 30px;
+    background-color: $color-cards;
+    color: #000000;
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}
