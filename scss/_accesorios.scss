@@ -5,7 +5,7 @@
     align-items: center;
     text-transform: uppercase;
     background-color: black;
-    color: white;
+    color: map-get($coloresLetras , "color1" );
     font-size: 40px;
     margin: 100px auto 0px auto;
     border: solid 2px white;
@@ -37,31 +37,19 @@
 .accesorios {
     
     .auricular{
-        margin: 30px 30px;
-        padding: 60px 30px;
         background-color: $color-cards;
-        color: #000000;
-        border-radius: 2rem;
-        border: solid 2px transparent;
-        box-shadow: 5px 8px 12px black;
+        color: map-get($coloresLetras , "color2" );
+        @include bordesRedondeadosParaCards (30px 30px, 60px 30px);
     }
     .cargadorPortatil{
-        margin: 30px 30px;
-        padding: 80px 30px;
         background-color: $color-cards;
-        color: #000000;
-        border-radius: 2rem;
-        border: solid 2px transparent;
-        box-shadow: 5px 8px 12px black;
+        color: map-get($coloresLetras , "color2" );
+        @include bordesRedondeadosParaCards (30px 30px, 80px 30px);
     }
     .soporteAuto{
-        margin: 30px 30px;
-        padding: 80px 30px;
         background-color: $color-cards;
-        color: #000000;
-        border-radius: 2rem;
-        border: solid 2px transparent;
-        box-shadow: 5px 8px 12px black;
+        color: map-get($coloresLetras , "color2" );
+        @include bordesRedondeadosParaCards (30px 30px, 80px 30px);
     }
 }
 .paginaAccesorios h2, p{
@@ -72,51 +60,29 @@
     border-bottom: solid 2px white;
 }
 .card1{
-    margin: 50px 60px;
-    padding: 31px 20px;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black ;
+    @include bordesRedondeadosParaCards (50px 60px, 31px 20px);
     transition: transform 0.4s;
 }
 .card2{
-    margin: 50px 60px;
-    padding: 27px 20px;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black ;
+    @include bordesRedondeadosParaCards (50px 60px, 27px 20px);
     transition: transform 0.4s;
 }
 .card3{
-    margin: 50px 60px;
-    padding: 40px 20px;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black ;
+    @include bordesRedondeadosParaCards (50px 60px, 40px 20px);
     transition: transform 0.4s;
 }
 .card4{
-    margin: 50px 60px;
-    padding: 40px 20px;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black ;
+    @include bordesRedondeadosParaCards (50px 60px, 40px 20px);
     transition: transform 0.4s;
 }
 .card5{
-    margin: 50px 60px;
-    padding: 40px 20px;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black ;
+    @include bordesRedondeadosParaCards (50px 60px, 40px 20px);
     transition: transform 0.4s;
 }
 .card6{
     margin: 50px 60px;
     padding: 40px 20px;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black ;
+    @include bordesRedondeadosParaCards (50px 60px, 40px 20px);
     transition: transform 0.4s;
 }
 .card1:hover{

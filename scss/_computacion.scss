@@ -28,37 +28,25 @@
     transition: transform 0.4s;
 }
 .computacion p{
-    color: black;
+    color: map-get($coloresLetras , "color2" );
 }
 .productosComputacion a:hover{
     transform: scale(1.07);
 }
 .productosComputacion .comboNoga{
-    margin: 30px 30px;
-    padding: 80px 30px;
     background-color: $color-cards;
-    color: #000000;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    color: map-get($coloresLetras , "color2" );
+    @include bordesRedondeadosParaCards (30px 30px, 80px 30px);
 }
 .productosComputacion .tecladoMouse{
-    margin: 30px 30px;
-    padding: 30px 30px;
     background-color: $color-cards;
-    color: #000000;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    color: map-get($coloresLetras , "color2" );
+    @include bordesRedondeadosParaCards (30px 30px, 30px 30px);
 }
 .productosComputacion .notebookLenovo{
-    margin: 30px 30px;
-    padding: 30px 30px;
     background-color: $color-cards;
-    color: #000000;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    color: map-get($coloresLetras , "color2" );
+    @include bordesRedondeadosParaCards (30px 30px, 30px 30px);
 }
 .paginaComputacion img{
     width: 300px;
@@ -86,53 +74,39 @@
     margin: 30px 30px;
     padding:  60px 30px;
     background-color: $color-cards;
-    color: #000000;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    color: map-get($coloresLetras , "color2" );
+    @include bordesRedondeadosParaCards (30px 30px, 60px 30px);
 }
 .paginaComputacion .imagenCompu2{
     margin: 30px 30px;
     padding:  10px 30px;
-    background-color: $color-cards;;
-    color: #000000;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    background-color: $color-cards;
+    color: map-get($coloresLetras , "color2" );
+    @include bordesRedondeadosParaCards (30px 30px, 10px 30px);
 }
 .paginaComputacion .imagenCompu3{
     margin: 30px 30px;
     padding: 10px 30px;
     background-color: $color-cards;
-    color: #000000;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    color: map-get($coloresLetras , "color2" );
+    @include bordesRedondeadosParaCards (30px 30px, 10px 30px);
 }
 .paginaComputacion .imagenCompu4{
     margin: 30px 30px;
     padding: 10px 30px;
     background-color: $color-cards;
-    color: #000000;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    color: map-get($coloresLetras , "color2" );
+    @include bordesRedondeadosParaCards (30px 30px, 10px 30px);
 }
 .paginaComputacion .imagenCompu5{
     margin: 30px 30px;
     padding: 10px 30px;
     background-color: $color-cards;
-    color: #000000;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    color: map-get($coloresLetras , "color2" );
+    @include bordesRedondeadosParaCards (30px 30px, 10px 30px);
 }
 .paginaComputacion .imagenCompu6{
-    margin: 30px 30px;
-    padding: 60px 30px;
     background-color: $color-cards;
-    color: #000000;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    color: map-get($coloresLetras , "color2" );
+    @include bordesRedondeadosParaCards (30px 30px, 60px 30px);
 }

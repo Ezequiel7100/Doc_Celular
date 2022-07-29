@@ -1,3 +1,8 @@
+.ubicacion {
+  border-radius: 2rem;
+  border: solid 2px transparent;
+  box-shadow: 5px 8px 12px black; }
+
 * {
   padding: 0;
   margin: 0;
@@ -27,10 +32,7 @@ a {
   margin: 350px auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border-radius: 2rem;
-  border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  align-items: center; }
 
 .cards {
   margin: 200px 0px; }
@@ -92,31 +94,31 @@ a {
   transform: scale(1.07); }
 
 .productosComputacion .comboNoga {
-  margin: 30px 30px;
-  padding: 80px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 80px 30px; }
 
 .productosComputacion .tecladoMouse {
-  margin: 30px 30px;
-  padding: 30px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 30px 30px; }
 
 .productosComputacion .notebookLenovo {
-  margin: 30px 30px;
-  padding: 30px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 30px 30px; }
 
 .paginaComputacion img {
   width: 300px; }
@@ -144,55 +146,65 @@ a {
   margin: 30px 30px;
   padding: 60px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 60px 30px; }
 
 .paginaComputacion .imagenCompu2 {
   margin: 30px 30px;
   padding: 10px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 10px 30px; }
 
 .paginaComputacion .imagenCompu3 {
   margin: 30px 30px;
   padding: 10px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 10px 30px; }
 
 .paginaComputacion .imagenCompu4 {
   margin: 30px 30px;
   padding: 10px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 10px 30px; }
 
 .paginaComputacion .imagenCompu5 {
   margin: 30px 30px;
   padding: 10px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 10px 30px; }
 
 .paginaComputacion .imagenCompu6 {
-  margin: 30px 30px;
-  padding: 60px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 60px 30px; }
 
 .nombreGaming {
   width: 80%;
@@ -233,31 +245,31 @@ a {
   color: black; }
 
 .gaming .controlPs3 {
-  margin: 30px 30px;
-  padding: 30px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 30px 30px; }
 
 .gaming .controlPs4 {
-  margin: 30px 30px;
-  padding: 100px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 100px 30px; }
 
 .gaming .ps4Pro {
-  margin: 30px 30px;
-  padding: 80px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 80px 30px; }
 
 .paginaGaming img {
   width: 300px; }
@@ -273,58 +285,58 @@ a {
   justify-items: center; }
 
 .paginaGaming .imagenGaming1 {
-  margin: 30px 30px;
-  padding: 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 30px; }
 
 .paginaGaming .imagenGaming2 {
-  margin: 30px 30px;
-  padding: 100px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 100px 30px; }
 
 .paginaGaming .imagenGaming3 {
-  margin: 30px 30px;
-  padding: 80px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 80px 30px; }
 
 .paginaGaming .imagenGaming4 {
-  margin: 30px 30px;
-  padding: 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 30px; }
 
 .paginaGaming .imagenGaming5 {
-  margin: 30px 30px;
-  padding: 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 30px; }
 
 .paginaGaming .imagenGaming6 {
-  margin: 30px 30px;
-  padding: 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 30px; }
 
 .nombreAccesorio {
   width: 80%;
@@ -361,31 +373,31 @@ a {
   color: black; }
 
 .accesorios .auricular {
-  margin: 30px 30px;
-  padding: 60px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 60px 30px; }
 
 .accesorios .cargadorPortatil {
-  margin: 30px 30px;
-  padding: 80px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 80px 30px; }
 
 .accesorios .soporteAuto {
-  margin: 30px 30px;
-  padding: 80px 30px;
   background-color: white;
-  color: #000000;
+  color: black;
   border-radius: 2rem;
   border: solid 2px transparent;
-  box-shadow: 5px 8px 12px black; }
+  box-shadow: 5px 8px 12px black;
+  margin: 30px 30px;
+  padding: 80px 30px; }
 
 .paginaAccesorios h2, p {
   display: flex;
@@ -395,43 +407,43 @@ a {
   border-bottom: solid 2px white; }
 
 .card1 {
-  margin: 50px 60px;
-  padding: 31px 20px;
   border-radius: 2rem;
   border: solid 2px transparent;
   box-shadow: 5px 8px 12px black;
+  margin: 50px 60px;
+  padding: 31px 20px;
   transition: transform 0.4s; }
 
 .card2 {
-  margin: 50px 60px;
-  padding: 27px 20px;
   border-radius: 2rem;
   border: solid 2px transparent;
   box-shadow: 5px 8px 12px black;
+  margin: 50px 60px;
+  padding: 27px 20px;
   transition: transform 0.4s; }
 
 .card3 {
-  margin: 50px 60px;
-  padding: 40px 20px;
   border-radius: 2rem;
   border: solid 2px transparent;
   box-shadow: 5px 8px 12px black;
+  margin: 50px 60px;
+  padding: 40px 20px;
   transition: transform 0.4s; }
 
 .card4 {
-  margin: 50px 60px;
-  padding: 40px 20px;
   border-radius: 2rem;
   border: solid 2px transparent;
   box-shadow: 5px 8px 12px black;
+  margin: 50px 60px;
+  padding: 40px 20px;
   transition: transform 0.4s; }
 
 .card5 {
-  margin: 50px 60px;
-  padding: 40px 20px;
   border-radius: 2rem;
   border: solid 2px transparent;
   box-shadow: 5px 8px 12px black;
+  margin: 50px 60px;
+  padding: 40px 20px;
   transition: transform 0.4s; }
 
 .card6 {
@@ -440,6 +452,8 @@ a {
   border-radius: 2rem;
   border: solid 2px transparent;
   box-shadow: 5px 8px 12px black;
+  margin: 50px 60px;
+  padding: 40px 20px;
   transition: transform 0.4s; }
 
 .card1:hover {
@@ -486,29 +500,29 @@ a {
     align-items: center;
     transition: transform 0.4s; }
     .celulares .productosCelulares .a03s {
-      margin: 30px 30px;
-      padding: 80px 30px;
       background-color: white;
-      color: #000000;
+      color: black;
       border-radius: 2rem;
       border: solid 2px transparent;
-      box-shadow: 5px 8px 12px black; }
+      box-shadow: 5px 8px 12px black;
+      margin: 30px 30px;
+      padding: 80px 30px; }
     .celulares .productosCelulares .a12 {
-      margin: 30px 30px;
-      padding: 80px 30px;
       background-color: white;
-      color: #000000;
+      color: black;
       border-radius: 2rem;
       border: solid 2px transparent;
-      box-shadow: 5px 8px 12px black; }
+      box-shadow: 5px 8px 12px black;
+      margin: 30px 30px;
+      padding: 80px 30px; }
     .celulares .productosCelulares .a22 {
-      margin: 30px 30px;
-      padding: 80px 30px;
       background-color: white;
-      color: #000000;
+      color: black;
       border-radius: 2rem;
       border: solid 2px transparent;
-      box-shadow: 5px 8px 12px black; }
+      box-shadow: 5px 8px 12px black;
+      margin: 30px 30px;
+      padding: 80px 30px; }
 
 .celulares img {
   width: 300px; }
@@ -534,58 +548,58 @@ a {
     width: 70%;
     align-items: center; }
     .celularesPagina .fotosCelulares .imagenCelu1 {
-      margin: 30px 30px;
-      padding: 30px;
       background-color: white;
-      color: #000000;
+      color: black;
       border-radius: 2rem;
       border: solid 2px transparent;
       box-shadow: 5px 8px 12px black;
+      margin: 30px 30px;
+      padding: 30px;
       transition: transform 0.4s; }
     .celularesPagina .fotosCelulares .imagenCelu2 {
-      margin: 30px 30px;
-      padding: 30px;
       background-color: white;
-      color: #000000;
+      color: black;
       border-radius: 2rem;
       border: solid 2px transparent;
       box-shadow: 5px 8px 12px black;
+      margin: 30px 30px;
+      padding: 30px;
       transition: transform 0.4s; }
     .celularesPagina .fotosCelulares .imagenCelu3 {
-      margin: 30px 30px;
-      padding: 30px;
       background-color: white;
-      color: #000000;
+      color: black;
       border-radius: 2rem;
       border: solid 2px transparent;
       box-shadow: 5px 8px 12px black;
+      margin: 30px 30px;
+      padding: 30px;
       transition: transform 0.4s; }
     .celularesPagina .fotosCelulares .imagenCelu4 {
-      margin: 30px 30px;
-      padding: 30px;
       background-color: white;
-      color: #000000;
+      color: black;
       border-radius: 2rem;
       border: solid 2px transparent;
       box-shadow: 5px 8px 12px black;
+      margin: 30px 30px;
+      padding: 30px;
       transition: transform 0.4s; }
     .celularesPagina .fotosCelulares .imagenCelu5 {
+      background-color: white;
+      color: black;
+      border-radius: 2rem;
+      border: solid 2px transparent;
+      box-shadow: 5px 8px 12px black;
       margin: 30px 30px;
       padding: 52px 30px;
-      background-color: white;
-      color: #000000;
-      border-radius: 2rem;
-      border: solid 2px transparent;
-      box-shadow: 5px 8px 12px black;
       transition: transform 0.4s; }
     .celularesPagina .fotosCelulares .imagenCelu6 {
-      margin: 30px 30px;
-      padding: 30px;
       background-color: white;
-      color: #000000;
+      color: black;
       border-radius: 2rem;
       border: solid 2px transparent;
       box-shadow: 5px 8px 12px black;
+      margin: 30px 30px;
+      padding: 30px;
       transition: transform 0.4s; }
 
 .imagenCelu1:hover {

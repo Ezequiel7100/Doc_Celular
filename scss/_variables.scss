@@ -1,2 +1,22 @@
+
 $color-secundario: radial-gradient(circle at 98.46% 50%, #404085 0, #1c2455 25%, #000128 50%, #000000 75%, #000000 100%); 
 $color-cards: white;
+
+$coloresLetras: (
+    "color1": white,
+    "color2": black
+);
+
+@mixin bordesRedondeadosParaCards ($margin, $padding) {
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+    margin: $margin;
+    padding: $padding;
+}
+
+%bordes {
+    border-radius: 2rem;
+    border: solid 2px transparent;
+    box-shadow: 5px 8px 12px black;
+}

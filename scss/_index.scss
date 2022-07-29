@@ -3,21 +3,21 @@
     margin: 0;
     list-style: none;
     }
-    body{
-        background:#000000;
-        background: -webkit-linear-gradient(to right, #434343, #000000);
-        background: linear-gradient(to right, #434343, #000000); 
-        color: white;
-    }
-    .bodyAccesorios{
-        background-image: $color-secundario;
-    }
-    a{
-        text-decoration: none;
-    }
-    .fondo{
-        width: 100%;
-    }
+body{
+    background:#000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000); 
+    color: map-get($coloresLetras , "color1" );
+}
+.bodyAccesorios{
+    background-image: $color-secundario;
+}
+a{
+    text-decoration: none;
+}
+.fondo{
+    width: 100%;
+}
     /* UBICACION */
 .ubicacion{
     background: #bdc3c7;
@@ -28,9 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 2rem;
-    border: solid 2px transparent;
-    box-shadow: 5px 8px 12px black;
+    @extend %bordes;
 }
 .cards{
     margin: 200px 0px;
