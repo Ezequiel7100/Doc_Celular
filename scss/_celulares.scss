@@ -51,6 +51,13 @@
 .celulares p{
     color: map-get($coloresLetras , "color2" );
 }
+.celularesPagina h1{
+    display: flex;
+    justify-content: center;
+    border-top: solid 2px black;
+    padding-top: 30px;
+    color: map-get($coloresLetras , "color2" );
+}
 .celularesPagina{
     width: 100%;
     h2{

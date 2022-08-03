@@ -51,6 +51,13 @@
 .paginaComputacion img{
     width: 300px;
 }
+.paginaComputacion h1{
+    display: flex;
+    justify-content: center;
+    border-top: solid 2px white;
+    padding-top: 30px;
+    color: map-get($coloresLetras , "color1" );
+}
 .paginaComputacion{
     width: 100%;
 }

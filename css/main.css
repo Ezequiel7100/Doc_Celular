@@ -17,6 +17,15 @@ body {
 .bodyAccesorios {
   background-image: radial-gradient(circle at 98.46% 50%, #404085 0, #1c2455 25%, #000128 50%, #000000 75%, #000000 100%); }
 
+.bodyCelulares {
+  background-image: linear-gradient(220deg, #e1edff 0, #a9bdfb 50%, #6f90d9 100%); }
+
+.bodyGaming {
+  background-image: linear-gradient(220deg, #ffffff 0, #e9eaff 50%, #b6bade 100%); }
+
+.bodyComputacion {
+  background-image: linear-gradient(220deg, #353e6c 0, #000219 50%, #000000 100%); }
+
 a {
   text-decoration: none; }
 
@@ -122,6 +131,13 @@ a {
 
 .paginaComputacion img {
   width: 300px; }
+
+.paginaComputacion h1 {
+  display: flex;
+  justify-content: center;
+  border-top: solid 2px white;
+  padding-top: 30px;
+  color: white; }
 
 .paginaComputacion {
   width: 100%; }
@@ -273,6 +289,13 @@ a {
 
 .paginaGaming img {
   width: 300px; }
+
+.paginaGaming h1 {
+  display: flex;
+  justify-content: center;
+  border-top: solid 2px black;
+  padding-top: 30px;
+  color: black; }
 
 .paginaGaming {
   width: 100%; }
@@ -531,6 +554,13 @@ a {
   transform: scale(1.07); }
 
 .celulares p {
+  color: black; }
+
+.celularesPagina h1 {
+  display: flex;
+  justify-content: center;
+  border-top: solid 2px black;
+  padding-top: 30px;
   color: black; }
 
 .celularesPagina {
