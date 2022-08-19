@@ -1,0 +1,111 @@
+@media only screen and (max-width: 768px) {
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+        /*index*/
+    .computacion{
+        flex-direction: column;
+        padding: 60px 20px;
+    }
+    .gaming{
+        flex-direction: column;
+        padding: 60px 20px;
+    }
+    .accesorios{
+        flex-direction: column;
+    }
+    .paginaComputacion .fotosComputacion{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .paginaGaming .fotosGaming{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .paginaGaming img{
+        width: 200px;
+    }
+    .paginaComputacion img{
+        width: 200px;
+    }
+    .ubicacion .mapa{
+        width: 400px;
+        height: 400px;
+    }
+    .icono{
+        font-size: 50px;
+    }
+    
+} 
+@media only screen and (max-width: 320px) {
+    .nombre{
+        font-size: 20px;
+    }
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu ul{
+        font-size: 9px;
+        padding-top: 10px;
+    }
+    .computacion{
+        flex-direction: column;
+        padding: 60px 15px;
+        background: none;
+    }
+    .gaming{
+        padding: 60px 15px;
+        background: none;
+    }
+    .accesorios{
+        padding: 60px 15px;
+        background: none;
+    }
+    .celulares{
+        padding: 60px 15px;
+        background: transparent;
+    }
+    .computacion img{
+        width: 150px;
+    }
+    .gaming img{
+        width: 150px;
+    }
+    .accesorios img{
+        width: 150px;
+    }
+    .celulares img{
+        width: 150px;
+    }
+    .ubicacion .mapa{
+        width: 200px;
+    }
+    .paginaComputacion .fotosComputacion{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .paginaGaming .fotosGaming{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .paginaComputacion img{
+        width: 200px;
+    }
+    .celularesPagina img{
+        width: 200px;
+    }
+    .paginaGaming img{
+        width: 200px;
+    }
+    .paginaAccesorios img{
+        width: 200px;
+    }
+    .icono{
+        font-size: 30px;
+    }
+    .paginaAccesorios img{
+        width: 200px;
+    }
+}

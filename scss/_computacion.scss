@@ -30,7 +30,7 @@
 .computacion p{
     color: map-get($coloresLetras , "color2" );
 }
-.productosComputacion a:hover{
+.computacion .productosComputacion a:hover{
     transform: scale(1.07);
 }
 .productosComputacion .comboNoga{

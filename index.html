@@ -7,12 +7,13 @@
     <meta name="keywords" content="doctor celular, celulares, tecnologia, computacion, compra, accesorios, telefonos, auriculares, teclados, mouse, controles ps4, control, jostick, parlantes, juegos, diversion,  ">
     <meta name="description" content="Doctor celular el mejor lugar para comprar, con los mejores productos del mercado. ">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <title>Doctor Celular/Inicio</title>
 </head>
 <body class="bg-white">
     <header class="sticky-top"> 
-            <nav class="navbar navbar-expand-lg bg-black">
+            <nav class="navbar navbar-expand-lg bg-black nav">
                 <div class="container-fluid">
                     <a class="navbar-brand link-light" href="#">
                         <img src="./imagenes/logo.jpn.png" alt="logo Doctor celular" width="50" class="d-inline-block align-text-center">
@@ -45,77 +46,177 @@
     </header>
     <main>
          <div class="fondo">   
-            <img src="./imagenes/fondo.png" alt="fondo" style="width: 100%;">
+            <img src="./publicidad/COMPRA-LO-MEJOR.png" alt="fondo" style="width: 100%;">
         </div> 
             <a href="./paginas/computacion.html" class="nombreComputacion">Computacion</a>
-        <section class="computacion border rounded-3">
+        <section class="computacion border rounded-3" data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="productosComputacion">   
-                <a href="./paginas/computacion.html" class="comboNoga">
+                <a href="./paginas/computacion.html" class="comboNoga" data-aos="zoom-in">
                     <img src="./productos/combo-noga.jpg" alt="combo noga">
                     <h5>Combo noga</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$5.699</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                    </ul>
                 </a>
-                <a href="./paginas/computacion.html" class="tecladoMouse">
+                <a href="./paginas/computacion.html" class="tecladoMouse" data-aos="zoom-in">
                     <img src="./productos/teclado-mouse.png" alt="teclado y mouse">
                     <h5>Teclado y Mouse SOUL</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$2.499</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                    </ul>
                 </a>
-                <a href="./paginas/computacion.html" class="notebookLenovo">
+                <a href="./paginas/computacion.html" class="notebookLenovo" data-aos="zoom-in">
                     <img src="./productos/notebook-lenovo.png" alt="Notebook Lenovo">
                     <h5>Notebook Lenovo</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$21.699</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                    </ul>
                 </a>
             </div>
         </section>
+        <div class="publicidad1">
+            <h6 class="loMejor">Lo mejor en computacion lo encontras en nuestra tienda</h6>   
+            <img src="./publicidad/pc-gaming.png" alt="fondo" style="width: 100%;">
+        </div> 
             <a href="./paginas/gaming.html" class="nombreGaming">Gaming</a>
-        <section class="gaming border rounded-3">   
+        <section class="gaming border rounded-3" data-aos="fade-up"
+        data-aos-duration="3000">   
             <div class="productosGaming">
                 <a href="./paginas/gaming.html" class="controlPs3">   
                     <img src="./productos/control-ps3.jpg" alt="Control Ps3">
                     <h5>Jostick Ps3</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$6.999</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                    </ul>
                 </a>
                 <a href="./paginas/gaming.html" class="controlPs4">
                     <img src="./productos/control-ps4.webp" alt="Control Ps4">
                     <h5>Jostick Ps4</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$15.999</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                    </ul>
                 </a>
                 <a href="./paginas/gaming.html" class="ps4Pro">
                     <img src="./productos/ps4-pro.jpg" alt="Ps4 Pro">
                     <h5>Ps4 Pro</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$79.999</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                    </ul>
                 </a>
             </div>
         </section>
             <a href="./paginas/accesorios.html" class="nombreAccesorio">Accesorios</a>
-        <section class="accesorios border rounded-3"> 
+        <section class="accesorios border rounded-3" data-aos="fade-up"
+        data-aos-duration="3000"> 
             <div class="productosAccesorios">
-                <a href="./paginas/accesorios.html" class="auricular">   
+                <a href="./paginas/accesorios.html" class="auricular" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">   
                     <img src="./productos/auris-blut.png" alt="Auricular Bluetooth">
                     <h5>Auricular I12</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$3.200</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                    </ul>
                 </a>
-                <a href="./paginas/accesorios.html" class="cargadorPortatil">
+                <a href="./paginas/accesorios.html" class="cargadorPortatil" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <img src="./productos/cargador-portatil.png" alt="Cargador portatil">
                     <h5>Cargador Soul</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$1.699</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                    </ul>
                 </a>
-                <a href="./paginas/accesorios.html" class="soporteAuto">
+                <a href="./paginas/accesorios.html" class="soporteAuto" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <img src="./productos/soporte-auto.png" alt="Soporte para Auto">
                     <h5>Soporte Auto</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$1.000</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                    </ul>
                 </a>
             </div>
         </section>  
             <a href="./paginas/celualres.html" class="nombreCelulares">Celulares</a>
-        <section class="celulares border rounded-3">         
+        <section class="celulares border rounded-3" data-aos="fade-up"
+        data-aos-duration="3000">         
             <div class="productosCelulares">
-                <a href="./paginas/celualres.html" class="a03s">
+                <a href="./paginas/celualres.html" class="a03s" data-aos="flip-left">
                     <img src="./productos/celular-a03s.webp" alt="Celular Samsung A03s">
                     <h5>Samsung AO3s</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$45.999</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                      </ul>
                 </a>
-                <a href="./paginas/celualres.html" class="a12">
+                <a href="./paginas/celualres.html" class="a12" data-aos="flip-left">
                     <img src="./productos/celular-a12.jpg" alt="Celular Samsung A12">
                     <h5>Samsung A12</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$45.699</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                      </ul>
                 </a>
-                <a href="./paginas/celualres.html" class="a22">
+                <a href="./paginas/celualres.html" class="a22" data-aos="flip-left">
                     <img src="./productos/celular-a22.png" alt="Celular Samsung A22">
                     <h5>Samsung A22</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">$68.999</li>
+                        <li class="list-group-item">
+                          <ion-icon name="airplane"></ion-icon>
+                          Envio a todo el pais
+                        </li>
+                      </ul>
                 </a>
             </div>
         </section> 
-        <section class="ubicacion border rounded-3 p-5">
+        <section class="ubicacion border rounded-3 p-5" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <h2 class="tituloUbicacion">Ubicacion</h2>    
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4740.204920665375!2d-68.85767869947709!3d-32.84972489714344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e08878a94ac33%3A0x2c027caa6ca5055c!2sDoctor%20Celular!5e0!3m2!1ses!2sar!4v1655091911124!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
         </section>   
@@ -171,27 +272,17 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="piePaginas" >
-            <ul class="redes">
-                <li>
-                    <a href="#">
-                        <img src="./logos/Instagram_logo.png" alt="Logo Instagram">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./logos/logo-facebook.png" alt="Logo facebook">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./logos/whatsapp-logo.png" alt="Logo whatsapp">
-                    </a>
-                </li>
-            </ul>
-            <h4 class="tituloQuienes">¿QUIENES SOMOS?</h4>
-            <P class="infoQuienes">Lorem ipsum dolor sit amet consectetur, adipis</P>
+    <footer class="piePaginas" >
+        <div class="container1">
+            <div class="btn btn1 fb-btn">
+                <ion-icon class="logo" name="logo-facebook"></ion-icon>
+            </div>
+            <div class="btn btn1 ig-btn">
+                <ion-icon class="logo" name="logo-instagram"></ion-icon>
+            </div>
+            <div class="btn btn1 tw-btn">
+                <ion-icon class="logo" name="logo-whatsapp"></ion-icon>
+            </div>
         </div>
     </footer>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -206,5 +297,9 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
 integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
 crossorigin="anonymous"
 ></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
